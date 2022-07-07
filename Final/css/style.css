@@ -1,0 +1,857 @@
+/* rgba(63, 207, 255, 0.97 */
+.body-bienvenidos {
+    background-image: url("../src/foto-animada.jpg");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: darkgrey;
+}
+
+.marca {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 3px;
+    display: inline-block;
+    margin-left: 500px;
+    font-family: 'Luckiest Guy', cursive;;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.menu-horizontal li a  {
+    text-decoration: none;
+    color: darkred;
+    background-color: white;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+
+
+
+/* seccion bienvenidos */
+.titulo-cinco {
+    font-size: 25x;
+    color: white;
+    background-color: black;
+    padding: 3px;
+    text-decoration: underline;
+    font-size: 25px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.destino {
+    color:  black;
+    font-size: 40px;
+    margin-left: 270px;
+    margin-top: 50px;
+    text-shadow: 1px 1px, 2px 2px black;
+}
+
+.paisajes {
+    background-color: rgba(255, 255, 255, 0.665);
+    color: brown;
+    border-radius: 5px;
+    font-family:  "Montserrat", Sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.imguno {
+    border: solid 3px black;
+    margin-left: 100px;
+}
+
+.imgdos {
+    border: solid 3px black;
+    margin-left: 100px;
+}
+
+.imgtres {
+    border: solid 3px black;
+    margin-left: 110px;
+}
+
+.section-cinco {
+    background-color:rgba(128, 128, 128, 0.424); 
+}
+
+.foto-uno {
+    margin: 0px;
+    padding-left: 300px;  
+    padding-top: 50px;
+}
+
+.titulo-bienvenidos {
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-left: 325px;
+    background-color: rgba(152, 40, 40, 0.568);
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 30px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.box-vacio-bienvenidos {
+    border: 2px solid brown;
+    margin-top: 10px;
+}
+
+.bienvenidos-subtitulo  {
+    color: white;
+    text-decoration: underline;
+    margin-left: 450px;
+    background-color: black;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.contenedor  {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.articulo-reseña-uno {
+    width: 450px;
+    background-color: rgba(255, 166, 0, 0.826);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 70px;
+    font-family: 'Paytone One', sans-serif;
+}
+
+.ubicacion {
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    padding-right: 40px;
+    margin-top: 50px;
+}
+
+.subtitulo-dubai {
+    font-size: 50px;
+    margin-left: 590px;
+    color: #8b5c00;
+    margin-top: 15px;
+}
+
+.boton  {
+    background-color: rgb(7, 70, 0);
+    color: white;
+    padding: 3px;
+    margin-left: 170px;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 13px;
+    border-radius: 10px;
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+.box-vacio-distinto {
+    border: 5px solid #8b5c00;
+    width: 123px;
+    position: relative;
+    bottom: 10px;
+    left: 593px;
+}
+
+
+
+
+/* seccion itinerario */
+.section-itinerario {
+    background-color: rgba(169, 169, 169, 0.272);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.titulo-itinerario {
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-left: 420px;
+    background-color: rgba(152, 40, 40, 0.568);
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 30px;
+    font-family: 'Luckiest Guy', cursive;;
+}
+
+.planes {
+    color: white;
+    margin: 10px;
+    text-decoration: underline;
+    background-color: black;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.lista-itinerarios {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 200px;
+    list-style: none;
+    color: black;
+    text-decoration: underline;
+    font-size: 20px;
+    color: brown;
+}
+
+.contenedor {
+    border: 3px solid rgba(255, 166, 0, 0.608);
+    padding: 25px;
+    
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contenedor-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.primer-itinerario {
+    border: 3px solid black;
+    padding: 15px;
+    width: 190px;
+    height: 340px;
+    margin: 4px;
+    background-color: rgba(255, 166, 0, 0.608);
+}
+
+.segundo-itinerario {
+    border: 3px solid black;
+    padding: 3px;
+    width: 190px;
+    height: 340px;
+    margin: 4px;
+    background-color: rgba(255, 166, 0, 0.608);
+}
+
+.tercer-itinerario {
+    border: 3px solid black;
+    padding: 3px;
+    width: 190px;
+    height: 340px;
+    margin: 4px;
+    background-color: rgba(255, 166, 0, 0.608);
+}
+
+.cuarto-itinerario {
+    border: 3px solid black;
+    padding: 3px;
+    width: 190px;
+    height: 340px;
+    margin: 4px;
+    background-color: rgba(255, 166, 0, 0.608);
+}
+
+.quinto-itinerario {
+    border: 3px solid black;
+    padding: 3px;
+    width: 190px;
+    height: 340px;
+    margin: 4px;
+    background-color: rgba(255, 166, 0, 0.608);
+}
+
+.sexto-itinerario {
+    border: 3px solid black;
+    padding: 3px;
+    width: 190px;
+    height: 340px;
+    margin: 4px;
+    background-color: rgba(255, 166, 0, 0.608);
+}
+
+.titulo-cuadro {
+    padding-left: 10px;
+    text-decoration: underline;
+}
+.titulo-noria {
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.titulo-hoteles {
+    padding-top: 6px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.titulo-khalifa {
+    padding-left: 10px;
+    padding-top: 2px;
+    text-decoration: underline;
+    color: black;
+    width: 200px;
+}
+
+.titulo-burj {
+    padding-left: 10px;
+    padding-top: 2px;
+    text-decoration: underline;
+    color: black;
+    width: 200px;
+}
+
+.titulo-playa {
+    padding-left: 10px;
+    padding-top: 2px;
+    text-decoration: underline;
+    color: black;
+    width: 200px;
+}
+
+.parrafo-card-uno {
+    width: 200px;
+    height: 500px;
+}
+
+.parrafo-card-dos {
+    width: 200px;
+    height: 500px;
+}
+
+.box-uno-vacio-itinerario {
+    border: 2px solid red;
+    width: 120px;
+    margin-left: 55px;
+    margin-top: 8px;
+}
+
+.box-dos-vacio-itinerario {
+    border: 2px solid red;
+    width: 120px;
+    margin-left: 55px;
+    margin-top: 8px;
+}
+
+.box-tres-vacio-itinerario {
+    border: 2px solid red;
+    width: 120px;
+    margin-left: 55px;
+    margin-top: 8px;
+}
+
+.box-cuatro-vacio-itinerario {
+    border: 2px solid red;
+    width: 120px;
+    margin-left: 55px;
+    margin-top: 8px;
+}
+
+.box-cinco-vacio-itinerario {
+    border: 2px solid red;
+    width: 120px;
+    margin-left: 55px;
+    margin-top: 8px;
+}
+
+.box-seis-vacio-itinerario {
+    border: 2px solid red;
+    width: 120px;
+    margin-left: 55px;
+    margin-top: 8px;
+}
+
+.box-vacio-itinerario {
+    border: 2px solid red;
+    width: 120px;
+    margin-left: 55px;
+    margin-top: 8px;
+}
+
+.foto-uno-itinerario {
+   margin-left: 35px;
+   margin-top: 8px;
+}
+
+.foto-dos-itinerario {
+    margin-left: 28px;
+    margin-top: 14px;
+}
+
+.foto-tres-itinerario {
+    margin-left: 28px;
+    padding-top: 10px;
+}
+
+.foto-cuatro-itinerario {
+    margin-left: 20px;
+    padding-top: 7px;
+}
+
+.foto-cinco-itinerario {
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+#notas {
+    margin: 1px;
+}
+
+.descripcion-itinerario-uno {
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 3px;
+}
+
+.descripcion-itinerario-dos {
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 3px;
+}
+
+.descripcion-itinerario-tres {
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 3px;
+}
+
+.descripcion-itinerario-cuatro {
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 3px;
+}
+
+.descripcion-itinerario-cinco {
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 3px;
+}
+
+.descripcion-itinerario-seis {
+    list-style: none;
+    padding-top: 10px;
+    margin-left: 3px;
+}
+
+.lista-extras  {
+    font-size: 20px;
+    background-color: rgba(255, 166, 0, 0.608);
+    color: black;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 40px;
+    text-decoration: underline;
+
+}
+
+.lista-extras li {
+    margin-top: 20px;
+    list-style: none;
+}
+
+
+
+
+/* seccion informacion */
+.section-noticia {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(169, 169, 169, 0.272);
+}
+
+.noticia-principal {
+    width: 400px;
+    height: 0px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Paytone One', sans-serif;
+    position: relative;
+    left: 430px;
+    top: 400px;
+}
+
+.foto-noticia {
+    box-shadow: 15px 15px 15px;
+}
+
+.noticia-principal:hover {
+    color: red;
+}
+
+.boton-mas {
+    background-color: gray;
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    position: relative;
+    top: 1280px;
+    left: 850px;
+}
+
+.boton-mas:hover {
+    color: red;
+    background-color: rgba(255, 166, 0, 0.608);
+}
+
+.subtitulo-noticia {
+    width:  250px;
+    height: 200px;
+    margin-left: 20px;
+    color: black;
+    margin-top: 40px;
+    position: relative;
+    top: 80px;
+}
+
+.subtitulo-dos-noticia {
+    width:  350px;
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: rgba(255, 166, 0, 0.608);
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.subtitulo-tres-noticia {
+    margin-left: 5px;
+    color: black;
+    margin-top: 15px;
+}
+
+.epigrafe {
+    width: 300px;
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.titulo-noticias  {
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-left: 430px;
+    margin-top: 20px;
+    background-color: rgba(152, 40, 40, 0.568);
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 2px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.subtitulo-informacion {
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    top: 70px;
+    right: 910px;
+}
+
+
+
+
+
+/* seccion formulario */
+.section-formulario {
+    background-color: rgba(169, 169, 169, 0.272);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.subtitulo-formulario {
+    color: white;
+    text-decoration: underline;
+    background-color: black;
+    display: inline-block;
+    margin-left: 513px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.controls {
+   font-size: 15px;
+   display: block;
+   margin: 15px;
+   padding: 10px;
+   margin-left: 30px;
+   background-color: rgba(255, 166, 0, 0.919);
+   color: black;
+}
+
+.controls:hover {
+    color: white;
+}
+
+.contenedor-formulario {
+   background-color: black;
+   display: inline-block;
+   padding: 15px;
+   height: 900px;
+   margin-left: 500px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+}  
+
+.submit-registrarse {
+    background-color: gray;
+    color: black;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 130px;
+    border-radius: 5px;
+    position: relative;
+    left: 65px;
+    top: 190px;
+} 
+
+.submit-registrarse:hover {
+    color: white;
+    background-color: rgba(255, 166, 0, 0.608);
+}
+
+label {
+    color: white;
+}
+
+.multiple-opciones {
+    position: relative;
+    right: 130px;
+}
+
+
+ 
+
+/* seccion quienes-somos */
+.body-somos {
+    background-color: rgba(169, 169, 169, 0.272);
+}
+
+.contenedor-quienes {
+    overflow: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(169, 169, 169, 0.272);
+}
+
+.titulo-quienes {
+    background-color: rgba(152, 40, 40, 0.568);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    margin-left: 570px;
+    margin-top: 20px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.oficinas {
+    float: right;
+    font-size: 28px;
+    width: 250px;
+    margin-right: 70px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.665);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.parrafo-uno {
+    font-size: 16px;
+    width: 300px;
+    margin-left: 1020px;
+}
+
+.parrafo-uno:hover {
+  color: red;
+}
+
+.box-vacio-quienes-uno {
+    border: solid 30px #466a7d;
+    width: 900px;
+    position: relative;
+    bottom: 110px;
+    left: 30px;
+
+}
+
+.box-vacio-quienes-dos {
+    border: solid 30px #466a7d;
+    width: 900px;
+    position: relative;
+    left: 400px;
+    bottom: 120px;
+}
+
+.parrafo-dos {
+    font-size: 16px;
+    width: 310px; 
+    margin-left: 30px;
+}
+
+.parrafo-dos:hover {
+    color: red;
+  }
+
+.excuriones-actividades { 
+    float: left;
+    font-size: 28px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.665);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+} 
+
+.img-quienes  { 
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    box-shadow: 15px 15px 15px;
+}
+
+.otros-destinos {
+    float: right;
+    font-size: 28px;
+    width: 340px;
+    margin-right: 300px;
+    margin-top: 40px;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.665);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+} 
+
+.parrafo-tres {
+    float: right;
+    font-size: 16px;
+    width: 250px;
+    margin-top: 30px;
+    margin-right: 385px;
+    background-color: rgba(255, 166, 0, 0.919);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+
+/* seccion muchas gracias */
+.gracias {
+    font-size: 100px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.accion {
+    font-size: 70px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.accion:hover {
+    color: rgba(255, 166, 0, 0.752);;
+}
+
+
+.section-gracias {
+    background-color: rgba(169, 169, 169, 0.272);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+/* footer */
+.section-footer {
+    background-color: darkgrey;
+    padding: 10px;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+.segunda-lista-footer {
+    list-style: none;
+    color: black;
+    margin-top: 30px;
+}
+
+.segunda-lista-footer li {
+    list-style: none;
+    color: black;
+    margin: 3px;
+}
+
+.foto-propia {
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.tercera-lista-footer {
+    list-style: none;
+    color: black;
+    margin: 3px;
+    float: right;
+}
+
+
